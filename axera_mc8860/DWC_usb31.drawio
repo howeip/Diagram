@@ -896,10 +896,124 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aZTQ_OUKq2EGqfPy5IIi" name="Arch">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1089" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-1" value="作为HOST时发送数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-2" target="ztpYwtKrCGzjCtJZNDad-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-2" value="PHY就绪，POR复位解除" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-4" target="ztpYwtKrCGzjCtJZNDad-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-4" value="Hub检测电平变化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-6" value="断开" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-5" target="ztpYwtKrCGzjCtJZNDad-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-24" value="连接" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-5" target="ztpYwtKrCGzjCtJZNDad-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-5" value="host发get_port_start了解原因" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-11" target="ztpYwtKrCGzjCtJZNDad-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-11" value="hub根据电平给host反馈设备速度" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-12" target="ztpYwtKrCGzjCtJZNDad-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-12" value="host通过hub对device复位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-13" target="ztpYwtKrCGzjCtJZNDad-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-13" value="host进一步检测速度" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-15" target="ztpYwtKrCGzjCtJZNDad-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-15" value="host读取地址0端点0&lt;div&gt;获取设备描述符信息（包size）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-16" target="ztpYwtKrCGzjCtJZNDad-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-16" value="host再次通过hub对device复位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-17" target="ztpYwtKrCGzjCtJZNDad-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-17" value="host对0地址发送&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;set_Address&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-18" target="ztpYwtKrCGzjCtJZNDad-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-18" value="host使用新地址发送get_Description" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-19" target="ztpYwtKrCGzjCtJZNDad-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-19" value="host使用新地址发送get_Description_Configuration" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-20" target="ztpYwtKrCGzjCtJZNDad-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-20" value="host获取描述符合集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-21" value="host为设备选择配置并挂载驱动" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1080" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-34" value="枚举流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-35" value="作为HOST时接收数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-36" value="DMA发送数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-37" value="DMA接收数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-38" value="作为Device时发送数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-39" value="作为Device时接收数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-40" value="控制传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-41" value="等时传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-42" value="批量传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-43" value="中断传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-48" value="准备TRB&lt;div&gt;TRB结构见excel：USB拆分-寄存器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="725" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
