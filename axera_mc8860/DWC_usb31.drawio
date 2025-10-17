@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5" pages="4">
   <diagram name="clk" id="C5yoRJ1Mqh8njfxFYyXz">
     <mxGraphModel dx="1222" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -896,7 +896,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aZTQ_OUKq2EGqfPy5IIi" name="Arch">
-    <mxGraphModel dx="1089" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="780" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1013,6 +1013,101 @@
         </mxCell>
         <mxCell id="ztpYwtKrCGzjCtJZNDad-48" value="准备TRB&lt;div&gt;TRB结构见excel：USB拆分-寄存器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="725" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-50" value="作为HOST时发送数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-51" value="控制传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-52" value="等时传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-53" value="批量传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-54" value="中断传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-55" value="UTMI+&lt;div&gt;bulk_hs&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-58" value="软件在命令环/传输环里放好完整的TRB（描述符），包括指针、长度和控制位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="200" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-59" value="软件将Slot ID和目标端点号打包成4-byte整数，写进doorbel&lt;div&gt;doorbell的Offset由0x14存放，4KB对齐，doorbell数量在HCSPARAMS1的MaxSlots指定（RO，DWC3有64个）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="240" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-60" value="xHCI收到doorbell后，去内存取出TRB并执行&lt;div&gt;一般一个doorbell只服务于一个EP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="280" width="400" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lB5Yk8QTDvRk2IRix1Fo" name="第 4 页">
+    <mxGraphModel dx="821" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-20" value="Device-context" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="470" y="570" width="310" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-1" value="Device-context" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="10" y="490" width="770" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-2" value="slot-context&lt;div&gt;slot-id和doorbell在地址上是对应的&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="590" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-3" value="Device0-EP0-context" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="630" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-4" value="Device0-EP31-context" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="710" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-5" value="···" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="670" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-6" value="&lt;font&gt;DCI=&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Device Context Index&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;当软件敲响command ring doorbell后，这段代码仅由xHCI维护&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="686" y="590" width="54" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-7" value="DCI0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="660" y="590" width="26" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-8" value="DCI1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="660" y="630" width="26" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-9" value="···" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="660" y="670" width="26" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-10" value="DCI31" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="660" y="710" width="26" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-13" value="&lt;div&gt;DCBAAP-64bits&lt;/div&gt;&lt;div&gt;指定DCBAA阵列首地址&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="30" y="590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-14" value="Device-context-arry" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="570" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rMROuzF7tN2smo3Es2TB-15" target="rMROuzF7tN2smo3Es2TB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-15" value="entry0&lt;div&gt;if(HCSPARAMS2-MAX-Scratchpad&amp;gt;0),指向Scratchpad buffer array&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="210" y="590" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-16" value="entry1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="210" y="630" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-17" value="&lt;span class=&quot;fontstyle0&quot;&gt;MaxSlotsEn&lt;/span&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&amp;lt;=255&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="210" y="710" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-18" value="···" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="210" y="670" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rMROuzF7tN2smo3Es2TB-13" target="rMROuzF7tN2smo3Es2TB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-22" value="1个doorbell对应一个Device-context-array的entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="790" width="350" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
