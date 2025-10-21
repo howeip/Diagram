@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.7" pages="4">
   <diagram name="clk" id="C5yoRJ1Mqh8njfxFYyXz">
     <mxGraphModel dx="1222" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -647,8 +647,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="nQHzCTQms0Arzha9ziD-" name="第 2 页">
-    <mxGraphModel dx="3298" dy="1803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="nQHzCTQms0Arzha9ziD-" name="Arch">
+    <mxGraphModel dx="1692" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -850,264 +850,491 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6DUaHdUJOBVKnRo6g8h4-1" value="CPFD" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="6DUaHdUJOBVKnRo6g8h4-1" value="CPFD" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-185" y="1960" width="670" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="6DUaHdUJOBVKnRo6g8h4-2" value="utmi level3&lt;div&gt;默认&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6DUaHdUJOBVKnRo6g8h4-4" target="6DUaHdUJOBVKnRo6g8h4-5">
+        <mxCell id="6DUaHdUJOBVKnRo6g8h4-2" value="utmi level3&lt;div&gt;默认&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6DUaHdUJOBVKnRo6g8h4-4" target="6DUaHdUJOBVKnRo6g8h4-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6DUaHdUJOBVKnRo6g8h4-3" value="PIPE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6DUaHdUJOBVKnRo6g8h4-4" target="6DUaHdUJOBVKnRo6g8h4-8">
+        <mxCell id="6DUaHdUJOBVKnRo6g8h4-3" value="PIPE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6DUaHdUJOBVKnRo6g8h4-4" target="6DUaHdUJOBVKnRo6g8h4-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6DUaHdUJOBVKnRo6g8h4-4" value="USB3.1控制器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6DUaHdUJOBVKnRo6g8h4-4" value="USB3.1控制器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5" y="2000" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6DUaHdUJOBVKnRo6g8h4-5" value="Akr USB2.0 PHY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6DUaHdUJOBVKnRo6g8h4-5" value="Akr USB2.0 PHY" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="325" y="2000" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6DUaHdUJOBVKnRo6g8h4-6" value="Akr comb PHY&lt;div&gt;PCS + PHY&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6DUaHdUJOBVKnRo6g8h4-6" value="Akr comb PHY&lt;div&gt;PCS + PHY&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="325" y="2120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6DUaHdUJOBVKnRo6g8h4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6DUaHdUJOBVKnRo6g8h4-8" target="6DUaHdUJOBVKnRo6g8h4-6">
+        <mxCell id="6DUaHdUJOBVKnRo6g8h4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6DUaHdUJOBVKnRo6g8h4-8" target="6DUaHdUJOBVKnRo6g8h4-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6DUaHdUJOBVKnRo6g8h4-8" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" vertex="1" parent="1">
+        <mxCell id="6DUaHdUJOBVKnRo6g8h4-8" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" parent="1" vertex="1">
           <mxGeometry x="205" y="2080" width="40" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6DUaHdUJOBVKnRo6g8h4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6DUaHdUJOBVKnRo6g8h4-10" target="6DUaHdUJOBVKnRo6g8h4-8">
+        <mxCell id="6DUaHdUJOBVKnRo6g8h4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6DUaHdUJOBVKnRo6g8h4-10" target="6DUaHdUJOBVKnRo6g8h4-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6DUaHdUJOBVKnRo6g8h4-10" value="XPCS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6DUaHdUJOBVKnRo6g8h4-10" value="XPCS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5" y="2120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6DUaHdUJOBVKnRo6g8h4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6DUaHdUJOBVKnRo6g8h4-12" target="6DUaHdUJOBVKnRo6g8h4-10">
+        <mxCell id="6DUaHdUJOBVKnRo6g8h4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6DUaHdUJOBVKnRo6g8h4-12" target="6DUaHdUJOBVKnRo6g8h4-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6DUaHdUJOBVKnRo6g8h4-12" value="EMAC控制器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6DUaHdUJOBVKnRo6g8h4-12" value="EMAC控制器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-155" y="2120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6DUaHdUJOBVKnRo6g8h4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6DUaHdUJOBVKnRo6g8h4-14" target="6DUaHdUJOBVKnRo6g8h4-8">
+        <mxCell id="6DUaHdUJOBVKnRo6g8h4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6DUaHdUJOBVKnRo6g8h4-14" target="6DUaHdUJOBVKnRo6g8h4-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6DUaHdUJOBVKnRo6g8h4-14" value="pcie3.0控制器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6DUaHdUJOBVKnRo6g8h4-14" value="pcie3.0控制器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5" y="2200" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="aZTQ_OUKq2EGqfPy5IIi" name="Arch">
-    <mxGraphModel dx="780" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="aZTQ_OUKq2EGqfPy5IIi" name="枚举与传输">
+    <mxGraphModel dx="1573" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-1" value="作为HOST时发送数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="40" width="160" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-34" value="枚举流程" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry y="80" width="820" height="1080" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-2" target="ztpYwtKrCGzjCtJZNDad-4">
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-1" value="作为HOST时发送数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ztpYwtKrCGzjCtJZNDad-2" target="ztpYwtKrCGzjCtJZNDad-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-2" value="PHY就绪，POR复位解除" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="65" y="120" width="120" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-2" value="PHY就绪，POR复位解除" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-4" target="ztpYwtKrCGzjCtJZNDad-5">
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ztpYwtKrCGzjCtJZNDad-4" target="ztpYwtKrCGzjCtJZNDad-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-4" value="Hub检测电平变化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="65" y="200" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-6" value="断开" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-5" target="ztpYwtKrCGzjCtJZNDad-4">
+        <mxCell id="VzQPYvXUrRuUOB4fjjwX-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-4" target="OrPpVZYiQmDoMDAiT08g-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-24" value="连接" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-5" target="ztpYwtKrCGzjCtJZNDad-11">
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-4" value="Hub检测电平变化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-6" value="断开" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ztpYwtKrCGzjCtJZNDad-5" target="ztpYwtKrCGzjCtJZNDad-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-5" value="host发get_port_start了解原因" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="65" y="280" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-11" target="ztpYwtKrCGzjCtJZNDad-12">
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-24" value="连接" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ztpYwtKrCGzjCtJZNDad-5" target="ztpYwtKrCGzjCtJZNDad-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-11" value="hub根据电平给host反馈设备速度" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="65" y="360" width="120" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-5" value="host发get_port_start了解原因" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="280" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-12" target="ztpYwtKrCGzjCtJZNDad-13">
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ztpYwtKrCGzjCtJZNDad-11" target="ztpYwtKrCGzjCtJZNDad-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-12" value="host通过hub对device复位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="65" y="440" width="120" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-11" value="hub根据电平给host反馈设备速度" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="360" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-13" target="ztpYwtKrCGzjCtJZNDad-15">
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ztpYwtKrCGzjCtJZNDad-12" target="ztpYwtKrCGzjCtJZNDad-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-13" value="host进一步检测速度" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="65" y="520" width="120" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-12" value="host通过hub对device复位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-15" target="ztpYwtKrCGzjCtJZNDad-16">
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ztpYwtKrCGzjCtJZNDad-13" target="ztpYwtKrCGzjCtJZNDad-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-15" value="host读取地址0端点0&lt;div&gt;获取设备描述符信息（包size）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="65" y="600" width="120" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-13" value="host进一步检测速度" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="520" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-16" target="ztpYwtKrCGzjCtJZNDad-17">
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ztpYwtKrCGzjCtJZNDad-15" target="ztpYwtKrCGzjCtJZNDad-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-16" value="host再次通过hub对device复位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="65" y="680" width="120" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-15" value="host读取地址0端点0&lt;div&gt;获取设备描述符信息（包size）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="600" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-17" target="ztpYwtKrCGzjCtJZNDad-18">
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ztpYwtKrCGzjCtJZNDad-16" target="ztpYwtKrCGzjCtJZNDad-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-17" value="host对0地址发送&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;set_Address&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="65" y="760" width="120" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-16" value="host再次通过hub对device复位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="680" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-18" target="ztpYwtKrCGzjCtJZNDad-19">
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ztpYwtKrCGzjCtJZNDad-17" target="ztpYwtKrCGzjCtJZNDad-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-18" value="host使用新地址发送get_Description" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="65" y="840" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-19" target="ztpYwtKrCGzjCtJZNDad-20">
+        <mxCell id="VzQPYvXUrRuUOB4fjjwX-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-17" target="OrPpVZYiQmDoMDAiT08g-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-19" value="host使用新地址发送get_Description_Configuration" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="65" y="920" width="120" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-17" value="host对0地址发送&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;set_Address&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="760" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-20" target="ztpYwtKrCGzjCtJZNDad-21">
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ztpYwtKrCGzjCtJZNDad-18" target="ztpYwtKrCGzjCtJZNDad-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-20" value="host获取描述符合集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="65" y="1000" width="120" height="40" as="geometry" />
+        <mxCell id="VzQPYvXUrRuUOB4fjjwX-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-18" target="VzQPYvXUrRuUOB4fjjwX-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-21" value="host为设备选择配置并挂载驱动" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="65" y="1080" width="120" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-18" value="host使用新地址发送get_Description" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="840" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-34" value="枚举流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="170" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ztpYwtKrCGzjCtJZNDad-19" target="ztpYwtKrCGzjCtJZNDad-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-35" value="作为HOST时接收数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="40" width="170" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-19" value="host使用新地址发送get_Description_Configuration" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="920" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-36" value="DMA发送数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="40" width="170" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ztpYwtKrCGzjCtJZNDad-20" target="ztpYwtKrCGzjCtJZNDad-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-37" value="DMA接收数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="40" width="170" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-20" value="host获取描述符合集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-38" value="作为Device时发送数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="40" width="170" height="40" as="geometry" />
+        <mxCell id="VzQPYvXUrRuUOB4fjjwX-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ztpYwtKrCGzjCtJZNDad-21" target="VzQPYvXUrRuUOB4fjjwX-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-39" value="作为Device时接收数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="40" width="170" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-21" value="host为设备选择配置并挂载驱动" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="1080" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-40" value="控制传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="240" y="120" width="80" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-35" value="作为HOST时接收数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="500" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-41" value="等时传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="320" y="120" width="80" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-36" value="DMA发送数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="500" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-42" value="批量传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="400" y="120" width="80" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-37" value="DMA接收数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="500" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-43" value="中断传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="480" y="120" width="80" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-38" value="作为Device时发送数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="370" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-48" value="准备TRB&lt;div&gt;TRB结构见excel：USB拆分-寄存器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="725" y="120" width="160" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-39" value="作为Device时接收数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="370" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-50" value="作为HOST时发送数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="40" width="160" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-40" value="控制传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1457" y="840" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-51" value="控制传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="120" width="80" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-41" value="等时传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1537" y="840" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-52" value="等时传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="120" width="80" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-42" value="批量传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="940" y="580" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-53" value="批量传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="120" width="80" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-43" value="中断传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="580" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-54" value="中断传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="120" width="80" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-48" value="准备TRB&lt;div&gt;TRB结构见excel：USB拆分-寄存器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1265" y="580" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-55" value="UTMI+&lt;div&gt;bulk_hs&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="40" width="80" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-50" value="作为HOST时发送数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="230" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-58" value="软件在命令环/传输环里放好完整的TRB（描述符），包括指针、长度和控制位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="200" width="400" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-51" value="控制传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="230" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-59" value="软件将Slot ID和目标端点号打包成4-byte整数，写进doorbel&lt;div&gt;doorbell的Offset由0x14存放，4KB对齐，doorbell数量在HCSPARAMS1的MaxSlots指定（RO，DWC3有64个）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="240" width="400" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-52" value="等时传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="230" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ztpYwtKrCGzjCtJZNDad-60" value="xHCI收到doorbell后，去内存取出TRB并执行&lt;div&gt;一般一个doorbell只服务于一个EP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="280" width="400" height="40" as="geometry" />
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-53" value="批量传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-54" value="中断传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ztpYwtKrCGzjCtJZNDad-55" value="UTMI+&lt;div&gt;bulk_hs&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-1" value="动作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="376" y="300" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-2" value="&lt;div&gt;1.端口状态变更-触发中断&lt;/div&gt;&lt;div&gt;2.xHCI向ERDP指向的地址写Port Status Change Event TRB&lt;/div&gt;&lt;div&gt;TRB包含：port id、comloetion code和TRB Type&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;align=left;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="376" y="340" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-4" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;1.ISR 里先读 PORTSCx 寄存器，确认 CSC=1，清 CSC/PEC&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;2.同时得到 CCS（连接状态）、PP、PR、Speed 等位&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="376" y="380" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-6" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;1.写 Set Port Feature(PORT_RESET) 到 PORTSC → PR=1&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;2.硬件复位&amp;gt;10 ms 复位 → PORTSC.PRC=1 置位 → 再次触发 Port Status Change Event&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="376" y="420" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-8" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;1.等 PRC=1 后读 PORTSC 获取 Super / High-/ Full-Speed&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;2.发 Enable Slot Command TRB 到 Command Ring&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;3.敲 Doorbell0&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="376" y="460" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-9" value="检测端口变化，触发中断" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-10" value="软件确认端口状态" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-11" value="准备控制传输三段式&lt;div&gt;-读标准配置描述符&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="860" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-12" value="软件复位端口" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="420" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-15" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;软件等待复位完成，获取速度，分配 Slot&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-16" value="1.host完成地址配置，回写 Command Completion Event为&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Success&lt;/span&gt;&lt;div&gt;2.Device Context.Slot Context.Device Address 被 xHCI 更新&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="376" y="620" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-17" value="1.把 Address Device Command TRB 插到 Command Ring写 Doorbell-0（slot=0, db-target=0）&lt;div&gt;2. xHC 开始执行&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="376" y="580" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-18" value="软件敲 Doorbell-0 发送 Address-Device 命令" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="580" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-19" value="软件准备 Input Context 与 Command Ring" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="540" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-23" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1218" y="1000" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-24" value="xHCI分配slot ID" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-25" value="&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;xHC 回写 Command Completion Event → 返回 &lt;/span&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 255, 255));&quot;&gt;Slot-ID&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（1…255）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="376" y="500" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-26" value="1.系统内存分配 Device Context + Input Context，2块缓存&lt;div&gt;2.在 Input Control Context 置位 Add Context（&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Slot&lt;/font&gt;+EP0）&lt;/div&gt;&lt;div&gt;3.把 Input Slot Context 填好：Route String、Speed、Hub/TT 信息（此时地址仍为 0）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="376" y="540" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-27" value="敲响一次doorbell0，xHCI从CRCR里面拿命令，每次都是" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="616" y="460" width="204" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-28" value="wvalue=0x1 // GET_DESCRIPTOR&lt;br&gt;wValue = 0x0200   // 配置描述符&lt;br&gt;wLength = 9       // 仅头" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="376" y="860" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-29" value="Slot ID 只存在于事件环的完成事件里，没有固定寄存器保存，用完由软件自行记录到驱动私有结构即可" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="616" y="500" width="204" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-30" value="Address Device command里面有input context的索引地址" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="616" y="540" width="204" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-31" value="xHC 回写事件，软件从 Event Ring 拿结果" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="620" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-32" value="流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-33" value="备注" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="616" y="300" width="204" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-34" value="xHCI根据Adddress Device command填写Device context&lt;div&gt;Device context由软件填写DCBAA（slot id）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="616" y="580" width="204" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-36" value="xHCI在slot ID位置填写Device context并补充Device的地址" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="616" y="620" width="204" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-37" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;当完成地址分配后&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;后续获取描述符、配置端点,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;软件不再用 Doorbell-0，而是：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;– 构造 Setup-Data-Status 三段 TRB → 插到 EP0 Transfer Ring&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;– 写 Doorbell(slot_id, EP0-OUT/IN) 发起 GET_DESCRIPTOR / SET_CONFIGURATION 等控制传输每完成一次传输，xHC 回写 Transfer Event 到 Event Ring&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="660" width="540" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OrPpVZYiQmDoMDAiT08g-38" value="host侧资源初始化流程" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="50" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="VzQPYvXUrRuUOB4fjjwX-4" value="host侧协议级枚举" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="820" width="50" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="VzQPYvXUrRuUOB4fjjwX-7" value="动作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="376" y="820" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VzQPYvXUrRuUOB4fjjwX-8" value="流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="820" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VzQPYvXUrRuUOB4fjjwX-9" value="备注" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="616" y="820" width="204" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-1" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="858" y="1000" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-2" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="954" y="1000" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-4" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1314" y="1000" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-5" value="xHCI回写" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="940" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-6" value="1.将所有的C翻转&lt;div&gt;2.将返回的9B字符保存到Data-Stage制定的地址内&lt;/div&gt;&lt;div&gt;3.触发中断&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="376" y="940" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-7" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="854" y="800" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-8" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="840" y="895" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-9" value="软件根据描述符,完善Device-endpoint0-context" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1060" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-10" value="wvalue=0x1 // GET_DESCRIPTOR&lt;br&gt;wValue = 0x0200 // 配置描述符&lt;br&gt;wLength = wTotalLength   // 上面获取的" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="376" y="980" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-11" value="准备控制传输三段式&lt;div&gt;-读配置描述符链&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="980" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-13" value="xHCI回写" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1020" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-14" value="1.将所有的C翻转&lt;div&gt;2.将返回的字符保存到Data-Stage制定的地址内&lt;/div&gt;&lt;div&gt;3.触发中断&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="376" y="1020" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-15" value="软件填写input-cotext，敲doorbell0" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="376" y="1060" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-16" value="r软件敲device对应的doorbell-slot_id" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="900" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-17" value="xHCI根据slot-id从DCBAA获取设备上下文&lt;div&gt;再根据DB Target获取对应entry-context&lt;/div&gt;&lt;div&gt;再找到TR-ring&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffff88;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="376" y="900" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-18" value="后续软件每次发送数据，都是如此" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="616" y="900" width="204" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-19" value="xHCI执行Device-context更新" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1100" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-20" value="xHCI从Command-ring拿到Evaluate-Command-TRB" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="376" y="1100" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9ct_AnWrWJGVOEExWcL-21" value="通常不需要，HOST可以看见device，枚举结束&lt;div&gt;如何配置endpoint并完善device-context属于驱动内容&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="616" y="1060" width="204" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="lB5Yk8QTDvRk2IRix1Fo" name="第 4 页">
-    <mxGraphModel dx="821" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="lB5Yk8QTDvRk2IRix1Fo" name="各种数据结构体">
+    <mxGraphModel dx="1922" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rMROuzF7tN2smo3Es2TB-20" value="Device-context" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="470" y="570" width="310" height="190" as="geometry" />
+        <mxCell id="NOD83dizdVyrrHpvRRSa-4" value="Event" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="450" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-1" value="Device-context" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="10" y="490" width="770" height="370" as="geometry" />
+        <mxCell id="NOD83dizdVyrrHpvRRSa-2" value="Command" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry y="170" width="450" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-2" value="slot-context&lt;div&gt;slot-id和doorbell在地址上是对应的&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="590" width="160" height="40" as="geometry" />
+        <mxCell id="NOD83dizdVyrrHpvRRSa-1" value="Command-Ring" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-3" value="Device0-EP0-context" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="630" width="160" height="40" as="geometry" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-20" value="Device-context" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="470" y="830" width="310" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-4" value="Device0-EP31-context" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="710" width="160" height="40" as="geometry" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-1" value="Device-context" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="10" y="750" width="770" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-5" value="···" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="670" width="160" height="40" as="geometry" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-2" value="slot-context&lt;div&gt;device设备信息，如地址&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="850" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-6" value="&lt;font&gt;DCI=&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Device Context Index&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;当软件敲响command ring doorbell后，这段代码仅由xHCI维护&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="686" y="590" width="54" height="160" as="geometry" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-3" value="Device0-EP0-context" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="890" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-7" value="DCI0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="660" y="590" width="26" height="40" as="geometry" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-4" value="Device0-EP31-context" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="970" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-8" value="DCI1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="660" y="630" width="26" height="40" as="geometry" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-5" value="···" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="930" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-9" value="···" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="660" y="670" width="26" height="40" as="geometry" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-6" value="&lt;font&gt;DCI=&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Device Context Index&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;当软件敲响command ring doorbell后，这段代码仅由xHCI维护&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="686" y="850" width="54" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-10" value="DCI31" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="660" y="710" width="26" height="40" as="geometry" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-7" value="DCI0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="660" y="850" width="26" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-13" value="&lt;div&gt;DCBAAP-64bits&lt;/div&gt;&lt;div&gt;指定DCBAA阵列首地址&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="30" y="590" width="120" height="40" as="geometry" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-8" value="DCI1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="660" y="890" width="26" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-14" value="Device-context-arry" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="200" y="570" width="180" height="190" as="geometry" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-9" value="···" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="660" y="930" width="26" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rMROuzF7tN2smo3Es2TB-15" target="rMROuzF7tN2smo3Es2TB-2">
+        <mxCell id="rMROuzF7tN2smo3Es2TB-10" value="DCI31" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="660" y="970" width="26" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-13" value="&lt;div&gt;DCBAAP-64bits&lt;/div&gt;&lt;div&gt;指定DCBAA阵列首地址&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="30" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-14" value="Device-context-arry" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="200" y="830" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-21" value="SOC地址查找" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rMROuzF7tN2smo3Es2TB-15" target="rMROuzF7tN2smo3Es2TB-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-15" value="entry0&lt;div&gt;if(HCSPARAMS2-MAX-Scratchpad&amp;gt;0),指向Scratchpad buffer array&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="210" y="590" width="160" height="40" as="geometry" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-15" value="entry0&lt;div&gt;if(HCSPARAMS2-MAX-Scratchpad&amp;gt;0),指向Scratchpad buffer array&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="210" y="850" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-16" value="entry1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="210" y="630" width="160" height="40" as="geometry" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-16" value="entry1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="210" y="890" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-17" value="&lt;span class=&quot;fontstyle0&quot;&gt;MaxSlotsEn&lt;/span&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&amp;lt;=255&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="210" y="710" width="160" height="40" as="geometry" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-17" value="&lt;span class=&quot;fontstyle0&quot;&gt;MaxSlotsEn&lt;/span&gt;&lt;div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&amp;lt;=255&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="210" y="970" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-18" value="···" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="210" y="670" width="160" height="40" as="geometry" />
+        <mxCell id="rMROuzF7tN2smo3Es2TB-18" value="···" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="210" y="930" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rMROuzF7tN2smo3Es2TB-13" target="rMROuzF7tN2smo3Es2TB-15">
+        <mxCell id="rMROuzF7tN2smo3Es2TB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rMROuzF7tN2smo3Es2TB-13" target="rMROuzF7tN2smo3Es2TB-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rMROuzF7tN2smo3Es2TB-22" value="1个doorbell对应一个Device-context-array的entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="790" width="350" height="30" as="geometry" />
+        <mxCell id="0NXuLVDsRVTT6siYjtKP-1" value="slot_id查找" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="rMROuzF7tN2smo3Es2TB-19">
+          <mxGeometry x="0.1158" y="-1" relative="1" as="geometry">
+            <mxPoint x="-13" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMROuzF7tN2smo3Es2TB-22" value="1个doorbell对应一个Device-context-array的entry" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1050" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U9M26GcXatOPX-shk9du-1" value="软件在命令环/传输环里放好完整的TRB（描述符），包括指针、长度和控制位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="120" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U9M26GcXatOPX-shk9du-2" value="软件将Slot ID和目标端点号打包成4-byte整数，写进doorbel&lt;div&gt;doorbell的Offset由0x14存放，4KB对齐，doorbell数量在HCSPARAMS1的MaxSlots指定（RO，DWC3有64个）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="160" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U9M26GcXatOPX-shk9du-3" value="xHCI收到doorbell后，去内存取出TRB并执行&lt;div&gt;一般一个doorbell只服务于一个EP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="200" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U9M26GcXatOPX-shk9du-4" value="&lt;div&gt;软件写Command-TRB&lt;/div&gt;&lt;div&gt;敲doorbell0&lt;/div&gt;&lt;div&gt;xHCI消费&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="280" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U9M26GcXatOPX-shk9du-5" value="&lt;div&gt;xHCI回写事件&lt;/div&gt;&lt;div&gt;上报中断&lt;/div&gt;&lt;div&gt;软件消费&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="555" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U9M26GcXatOPX-shk9du-6" value="trans ring" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NOD83dizdVyrrHpvRRSa-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0NXuLVDsRVTT6siYjtKP-2" target="0NXuLVDsRVTT6siYjtKP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NXuLVDsRVTT6siYjtKP-2" value="&lt;div&gt;CRCR-64bits&lt;/div&gt;&lt;div&gt;指定命令环首地址&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="110" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0NXuLVDsRVTT6siYjtKP-3" value="Enable Slot Command&lt;div&gt;添加Device,创建device?，slot-id先填0，由xHCI返回&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="270" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0NXuLVDsRVTT6siYjtKP-4" value="Address Device Command&lt;div&gt;仅枚举使用一次，获取device地址&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="270" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NOD83dizdVyrrHpvRRSa-5" value="Event-Ring" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="550" y="480" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="NOD83dizdVyrrHpvRRSa-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOD83dizdVyrrHpvRRSa-8" target="NOD83dizdVyrrHpvRRSa-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NOD83dizdVyrrHpvRRSa-8" value="&lt;div&gt;ERSTBA-64bits&lt;/div&gt;&lt;div&gt;指定事件环首地址&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="414" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NOD83dizdVyrrHpvRRSa-9" value="port状态变更TRB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="570" y="510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NOD83dizdVyrrHpvRRSa-10" value="命令响应TRB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="570" y="555" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NOD83dizdVyrrHpvRRSa-11" value="传输响应TRB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="570" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NOD83dizdVyrrHpvRRSa-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOD83dizdVyrrHpvRRSa-13" target="NOD83dizdVyrrHpvRRSa-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NOD83dizdVyrrHpvRRSa-13" value="&lt;div&gt;ERDP-64bits&lt;/div&gt;&lt;div&gt;当前指定事件地址&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="414" y="620" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
