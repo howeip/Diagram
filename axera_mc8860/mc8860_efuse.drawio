@@ -167,8 +167,8 @@
         <mxCell id="rNx_Vi7f1c2c76l7TRoG-8" value="AS_A_WAIT" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="190" y="170" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rNx_Vi7f1c2c76l7TRoG-20" value="efstg_state" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="80" width="246" height="60" as="geometry" />
+        <mxCell id="rNx_Vi7f1c2c76l7TRoG-20" value="efstg_state" style="rounded=0;whiteSpace=wrap;html=1;convertToSvg=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rNx_Vi7f1c2c76l7TRoG-21" value="efs_as_state" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="246" height="60" as="geometry" />
@@ -203,7 +203,7 @@
         <mxCell id="rNx_Vi7f1c2c76l7TRoG-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rNx_Vi7f1c2c76l7TRoG-33" target="rNx_Vi7f1c2c76l7TRoG-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rNx_Vi7f1c2c76l7TRoG-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rNx_Vi7f1c2c76l7TRoG-33" target="rNx_Vi7f1c2c76l7TRoG-38">
+        <mxCell id="rNx_Vi7f1c2c76l7TRoG-45" value="done" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rNx_Vi7f1c2c76l7TRoG-33" target="rNx_Vi7f1c2c76l7TRoG-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rNx_Vi7f1c2c76l7TRoG-33" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;PGM_READ&lt;/span&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;120/2/4&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;div&gt;PD=0&lt;/div&gt;&lt;div&gt;ARRD ok!&lt;/div&gt;&lt;div&gt;PS=pgm?1:0&lt;/div&gt;&lt;div&gt;CSB=0&lt;/div&gt;&lt;div&gt;MR=margin?1:0&lt;/div&gt;&lt;div&gt;PGENB=pgm?0:1&lt;/div&gt;&lt;div&gt;STROBE=1&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -212,32 +212,37 @@
         <mxCell id="rNx_Vi7f1c2c76l7TRoG-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rNx_Vi7f1c2c76l7TRoG-34" target="rNx_Vi7f1c2c76l7TRoG-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rNx_Vi7f1c2c76l7TRoG-34" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;H_A&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;1&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;div&gt;PD=0&lt;/div&gt;&lt;div&gt;ARRD ok!&lt;/div&gt;&lt;div&gt;PS=pgm?1:0&lt;/div&gt;&lt;div&gt;CSB=0&lt;/div&gt;&lt;div&gt;MR=margin?1:0&lt;/div&gt;&lt;div&gt;PGENB=pgm?0:1&lt;/div&gt;&lt;div&gt;STROBE=1&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="-640" width="120" height="120" as="geometry" />
+        <mxCell id="rNx_Vi7f1c2c76l7TRoG-34" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;H_A&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;1&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;div&gt;PD=0&lt;/div&gt;&lt;div&gt;ARRD update!&lt;/div&gt;&lt;div&gt;PS=pgm?1:0&lt;/div&gt;&lt;div&gt;CSB=0&lt;/div&gt;&lt;div&gt;MR=margin?1:0&lt;/div&gt;&lt;div&gt;PGENB=pgm?0:1&lt;/div&gt;&lt;div&gt;STROBE=0&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="-640" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rNx_Vi7f1c2c76l7TRoG-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rNx_Vi7f1c2c76l7TRoG-36" target="rNx_Vi7f1c2c76l7TRoG-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rNx_Vi7f1c2c76l7TRoG-36" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;H_PD_PS&lt;/span&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;a&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="467" y="-370" width="120" height="40" as="geometry" />
+        <mxCell id="rNx_Vi7f1c2c76l7TRoG-36" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;H_PD_PS&lt;/span&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;div&gt;17&lt;/div&gt;&lt;div&gt;PD=0&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467" y="-370" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="rNx_Vi7f1c2c76l7TRoG-37" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;H_PS_CS&lt;/span&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;9&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="587" y="-370" width="120" height="40" as="geometry" />
+        <mxCell id="rNx_Vi7f1c2c76l7TRoG-37" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;H_PS_CS&lt;/span&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;div&gt;1&lt;/div&gt;&lt;div&gt;PD=0&lt;/div&gt;&lt;div&gt;ARRD ok!&lt;/div&gt;&lt;div&gt;PS=pgm?1:0&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="587" y="-370" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="rNx_Vi7f1c2c76l7TRoG-38" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;EFS_HOLD&lt;/span&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;8&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="707" y="-370" width="120" height="40" as="geometry" />
+        <mxCell id="rNx_Vi7f1c2c76l7TRoG-38" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;EFS_HOLD&lt;/span&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;1&lt;br&gt;&lt;div&gt;&lt;div&gt;PD=0&lt;/div&gt;&lt;div&gt;ARRD update!&lt;/div&gt;&lt;div&gt;PS=pgm?1:0&lt;/div&gt;&lt;div&gt;CSB=0&lt;/div&gt;&lt;div&gt;MR=margin?1:0&lt;/div&gt;&lt;div&gt;PGENB=pgm?0:1&lt;/div&gt;&lt;div&gt;STROBE=0&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="-370" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="rNx_Vi7f1c2c76l7TRoG-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rNx_Vi7f1c2c76l7TRoG-39" target="rNx_Vi7f1c2c76l7TRoG-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rNx_Vi7f1c2c76l7TRoG-39" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;A_SWITCH&lt;/span&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;6&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="-760" width="120" height="40" as="geometry" />
+        <mxCell id="rNx_Vi7f1c2c76l7TRoG-47" value="如果存在bit不烧录&lt;div&gt;会空对应的cycle，最少1个cycle&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rNx_Vi7f1c2c76l7TRoG-43">
+          <mxGeometry x="0.138" y="-3" relative="1" as="geometry">
+            <mxPoint x="13" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rNx_Vi7f1c2c76l7TRoG-39" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;A_SWITCH&lt;/span&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;1+x&lt;br&gt;&lt;div&gt;&lt;div&gt;PD=0&lt;/div&gt;&lt;div&gt;ARRD ok!&lt;/div&gt;&lt;div&gt;PS=pgm?1:0&lt;/div&gt;&lt;div&gt;CSB=0&lt;/div&gt;&lt;div&gt;MR=margin?1:0&lt;/div&gt;&lt;div&gt;PGENB=pgm?0:1&lt;/div&gt;&lt;div&gt;STROBE=0&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="-840" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rNx_Vi7f1c2c76l7TRoG-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rNx_Vi7f1c2c76l7TRoG-40" target="rNx_Vi7f1c2c76l7TRoG-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rNx_Vi7f1c2c76l7TRoG-40" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;SU_A&lt;/span&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;7&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="707" y="-760" width="120" height="40" as="geometry" />
+        <mxCell id="rNx_Vi7f1c2c76l7TRoG-40" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;SU_A&lt;/span&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;1&lt;br&gt;&lt;div&gt;&lt;div&gt;PD=0&lt;/div&gt;&lt;div&gt;ARRD ok!&lt;/div&gt;&lt;div&gt;PS=pgm?1:0&lt;/div&gt;&lt;div&gt;CSB=0&lt;/div&gt;&lt;div&gt;MR=margin?1:0&lt;/div&gt;&lt;div&gt;PGENB=pgm?0:1&lt;/div&gt;&lt;div&gt;STROBE=0&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="-840" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
