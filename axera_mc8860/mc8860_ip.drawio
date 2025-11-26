@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1" pages="2">
   <diagram name="arch" id="17r9SrIfHmLDNzqiQorG">
     <mxGraphModel dx="1236" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,6 +151,69 @@
           <mxGeometry relative="1" x="-0.2122" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VXiNsUSaB_4Viq5cEtpK" name="第 2 页">
+    <mxGraphModel dx="721" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="手动模式&lt;div&gt;（基台校准·单次）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="自动模式&lt;div&gt;周期采集+非周期采集&lt;/div&gt;&lt;div&gt;多次&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="自动检测N+2次&lt;div&gt;对N次加权平均&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="低温中断" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="高温预警" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="高温中断&lt;div&gt;&amp;amp;&lt;div&gt;POR_RSN_N&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-9" edge="1" parent="1" source="3DQkzmezpHgk1yqM1iU1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3DQkzmezpHgk1yqM1iU1-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4个热敏电阻&lt;div&gt;8个电压输入&lt;/div&gt;&lt;div&gt;循环 or 配置？&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="参数" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-14" edge="1" parent="1" source="3DQkzmezpHgk1yqM1iU1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3DQkzmezpHgk1yqM1iU1-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-15" connectable="0" parent="3DQkzmezpHgk1yqM1iU1-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="手动或者time arrive" vertex="1">
+          <mxGeometry relative="1" x="-0.0546" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="IDLE" vertex="1">
+          <mxGeometry height="40" width="80" x="440" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-17" edge="1" parent="1" source="3DQkzmezpHgk1yqM1iU1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3DQkzmezpHgk1yqM1iU1-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-19" connectable="0" parent="3DQkzmezpHgk1yqM1iU1-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1拍" vertex="1">
+          <mxGeometry relative="1" x="-0.1102" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="EN_BGP" vertex="1">
+          <mxGeometry height="40" width="80" x="440" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SET_MUX" vertex="1">
+          <mxGeometry height="40" width="80" x="440" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SET_MUX" vertex="1">
+          <mxGeometry height="40" width="80" x="440" y="720" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
