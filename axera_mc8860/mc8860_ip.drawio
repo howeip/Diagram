@@ -185,7 +185,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VXiNsUSaB_4Viq5cEtpK" name="第 2 页">
-    <mxGraphModel dx="752" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1236" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -765,6 +765,9 @@
         </mxCell>
         <mxCell id="imFhmNfrqFwHLyiNSsrh-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="8个20bis外部阈值寄存器" vertex="1">
           <mxGeometry height="60" width="160" x="600" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="resault_valid_plus &amp;amp; 区间符合→脉冲转电平" vertex="1">
+          <mxGeometry height="60" width="300" x="180" y="530" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
