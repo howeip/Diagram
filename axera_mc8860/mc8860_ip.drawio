@@ -185,7 +185,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VXiNsUSaB_4Viq5cEtpK" name="第 2 页">
-    <mxGraphModel dx="1442" dy="1052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="752" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -213,14 +213,23 @@
         <mxCell id="3DQkzmezpHgk1yqM1iU1-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" value="自动模式&lt;div&gt;周期采集+非周期采集&lt;/div&gt;&lt;div&gt;多次&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="380" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="3DQkzmezpHgk1yqM1iU1-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="低温中断" vertex="1">
-          <mxGeometry height="60" width="120" x="80" y="640" as="geometry" />
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-19" edge="1" parent="1" source="3DQkzmezpHgk1yqM1iU1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="imFhmNfrqFwHLyiNSsrh-7" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3DQkzmezpHgk1yqM1iU1-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="高温预警" vertex="1">
-          <mxGeometry height="60" width="120" x="140" y="770" as="geometry" />
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="低温阈值比较" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="600" as="geometry" />
         </mxCell>
-        <mxCell id="3DQkzmezpHgk1yqM1iU1-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="高温中断&lt;div&gt;&amp;amp;&lt;div&gt;POR_RSN_N&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="140" y="850" as="geometry" />
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-20" edge="1" parent="1" source="3DQkzmezpHgk1yqM1iU1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="imFhmNfrqFwHLyiNSsrh-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="高温预警阈值比较" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-21" edge="1" parent="1" source="3DQkzmezpHgk1yqM1iU1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="imFhmNfrqFwHLyiNSsrh-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="高温阈值比较" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="840" as="geometry" />
         </mxCell>
         <mxCell id="3DQkzmezpHgk1yqM1iU1-14" edge="1" parent="1" source="3DQkzmezpHgk1yqM1iU1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3DQkzmezpHgk1yqM1iU1-13" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -256,11 +265,17 @@
         <mxCell id="3DQkzmezpHgk1yqM1iU1-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ADC_IN_EN" vertex="1">
           <mxGeometry height="40" width="80" x="1045.95" y="890" as="geometry" />
         </mxCell>
-        <mxCell id="3DQkzmezpHgk1yqM1iU1-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="外部高温预警？" vertex="1">
-          <mxGeometry height="60" width="120" x="460" y="690" as="geometry" />
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-22" edge="1" parent="1" source="3DQkzmezpHgk1yqM1iU1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="imFhmNfrqFwHLyiNSsrh-10" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3DQkzmezpHgk1yqM1iU1-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="外部高温中断？" vertex="1">
-          <mxGeometry height="60" width="120" x="460" y="810" as="geometry" />
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="外部预警阈值比较" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-23" edge="1" parent="1" source="3DQkzmezpHgk1yqM1iU1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="imFhmNfrqFwHLyiNSsrh-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3DQkzmezpHgk1yqM1iU1-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="外部超限阈值比较" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="1080" as="geometry" />
         </mxCell>
         <mxCell id="YKZacaOpTAnNwpEEJelB-9" edge="1" parent="1" source="YKZacaOpTAnNwpEEJelB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="YKZacaOpTAnNwpEEJelB-14" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -667,6 +682,89 @@
         </mxCell>
         <mxCell id="BOibScS-Cf0IlS0KSmFV-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" value="控制器循环等待&lt;div&gt;PHY复位&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="520" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-2" edge="1" parent="1" source="imFhmNfrqFwHLyiNSsrh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3DQkzmezpHgk1yqM1iU1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-3" edge="1" parent="1" source="imFhmNfrqFwHLyiNSsrh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3DQkzmezpHgk1yqM1iU1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-4" edge="1" parent="1" source="imFhmNfrqFwHLyiNSsrh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3DQkzmezpHgk1yqM1iU1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-5" edge="1" parent="1" source="imFhmNfrqFwHLyiNSsrh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3DQkzmezpHgk1yqM1iU1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-6" edge="1" parent="1" source="imFhmNfrqFwHLyiNSsrh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3DQkzmezpHgk1yqM1iU1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-25" edge="1" parent="1" source="imFhmNfrqFwHLyiNSsrh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="imFhmNfrqFwHLyiNSsrh-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="855" />
+              <mxPoint x="140" y="820" />
+              <mxPoint x="660" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-28" connectable="0" parent="imFhmNfrqFwHLyiNSsrh-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="（校准完成 | 单次测量完成） | 温度周期测试完成 | 电压周期测试完成 | 全周期测试完成" vertex="1">
+          <mxGeometry relative="1" x="-0.0401" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="测量完成-plus" vertex="1">
+          <mxGeometry height="60" width="120" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-14" edge="1" parent="1" source="imFhmNfrqFwHLyiNSsrh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="imFhmNfrqFwHLyiNSsrh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="低温中断x4" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-15" edge="1" parent="1" source="imFhmNfrqFwHLyiNSsrh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="imFhmNfrqFwHLyiNSsrh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="高温预警中断x4" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-16" edge="1" parent="1" source="imFhmNfrqFwHLyiNSsrh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="imFhmNfrqFwHLyiNSsrh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-18" edge="1" parent="1" source="imFhmNfrqFwHLyiNSsrh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="imFhmNfrqFwHLyiNSsrh-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="870" />
+              <mxPoint x="550" y="960" />
+              <mxPoint x="600" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="高温中断x4&lt;div&gt;&amp;amp; por_rst_n&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-17" edge="1" parent="1" source="imFhmNfrqFwHLyiNSsrh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="imFhmNfrqFwHLyiNSsrh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="外部预警中断x8" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-24" edge="1" parent="1" source="imFhmNfrqFwHLyiNSsrh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="imFhmNfrqFwHLyiNSsrh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="外部超限中断x8" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="thm_intp&lt;div&gt;32个中断源&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="high_heart_alam_thm" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4个30bis温度阈值寄存器" vertex="1">
+          <mxGeometry height="60" width="160" x="600" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="8个20bis外部阈值寄存器" vertex="1">
+          <mxGeometry height="60" width="160" x="600" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
