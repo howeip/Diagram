@@ -766,8 +766,11 @@
         <mxCell id="imFhmNfrqFwHLyiNSsrh-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="8个20bis外部阈值寄存器" vertex="1">
           <mxGeometry height="60" width="160" x="600" y="680" as="geometry" />
         </mxCell>
-        <mxCell id="imFhmNfrqFwHLyiNSsrh-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="resault_valid_plus &amp;amp; 区间符合→脉冲转电平" vertex="1">
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;resault_valid_plus &amp;amp; 区间符合→脉冲转电平&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;or&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;温度超限一直拉高？&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="300" x="180" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" value="常规温度处于低温与高温预警中间" vertex="1">
+          <mxGeometry height="40" width="260" x="200" y="670" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
