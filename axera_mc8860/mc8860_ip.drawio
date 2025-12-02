@@ -200,7 +200,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VXiNsUSaB_4Viq5cEtpK" name="第 2 页">
-    <mxGraphModel dx="1066" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1030" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,7 +323,7 @@
         <mxCell id="YKZacaOpTAnNwpEEJelB-31" edge="1" parent="1" source="YKZacaOpTAnNwpEEJelB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="YKZacaOpTAnNwpEEJelB-17" value="meas_done">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YKZacaOpTAnNwpEEJelB-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="TSENSOR1" vertex="1">
+        <mxCell id="YKZacaOpTAnNwpEEJelB-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="TSENSOR0" vertex="1">
           <mxGeometry height="40" width="80" x="1081" y="240" as="geometry" />
         </mxCell>
         <mxCell id="YKZacaOpTAnNwpEEJelB-36" edge="1" parent="1" source="YKZacaOpTAnNwpEEJelB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" target="YKZacaOpTAnNwpEEJelB-20" value="">
@@ -334,13 +334,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YKZacaOpTAnNwpEEJelB-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="NTC1" vertex="1">
+        <mxCell id="YKZacaOpTAnNwpEEJelB-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="NTC0" vertex="1">
           <mxGeometry height="40" width="80" x="1241" y="240" as="geometry" />
         </mxCell>
         <mxCell id="YKZacaOpTAnNwpEEJelB-32" edge="1" parent="1" source="YKZacaOpTAnNwpEEJelB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="YKZacaOpTAnNwpEEJelB-18" value="meas_done">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YKZacaOpTAnNwpEEJelB-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;" value="TSENSOR2" vertex="1">
+        <mxCell id="YKZacaOpTAnNwpEEJelB-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;" value="TSENSOR1" vertex="1">
           <mxGeometry height="40" width="80" x="1081" y="320" as="geometry" />
         </mxCell>
         <mxCell id="YKZacaOpTAnNwpEEJelB-33" edge="1" parent="1" source="YKZacaOpTAnNwpEEJelB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="YKZacaOpTAnNwpEEJelB-19" value="">
@@ -351,7 +351,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YKZacaOpTAnNwpEEJelB-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;" value="TSENSOR3" vertex="1">
+        <mxCell id="YKZacaOpTAnNwpEEJelB-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;" value="TSENSOR2" vertex="1">
           <mxGeometry height="40" width="80" x="1081" y="400" as="geometry" />
         </mxCell>
         <mxCell id="YKZacaOpTAnNwpEEJelB-34" edge="1" parent="1" source="YKZacaOpTAnNwpEEJelB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YKZacaOpTAnNwpEEJelB-28" value="">
@@ -378,7 +378,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YKZacaOpTAnNwpEEJelB-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;" value="TSENSOR4" vertex="1">
+        <mxCell id="YKZacaOpTAnNwpEEJelB-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;" value="TSENSOR3" vertex="1">
           <mxGeometry height="40" width="80" x="1081" y="480" as="geometry" />
         </mxCell>
         <mxCell id="YKZacaOpTAnNwpEEJelB-37" edge="1" parent="1" source="YKZacaOpTAnNwpEEJelB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" target="YKZacaOpTAnNwpEEJelB-21" value="">
@@ -389,7 +389,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YKZacaOpTAnNwpEEJelB-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="NTC2" vertex="1">
+        <mxCell id="YKZacaOpTAnNwpEEJelB-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="NTC1" vertex="1">
           <mxGeometry height="40" width="80" x="1241" y="320" as="geometry" />
         </mxCell>
         <mxCell id="YKZacaOpTAnNwpEEJelB-38" edge="1" parent="1" source="YKZacaOpTAnNwpEEJelB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" target="YKZacaOpTAnNwpEEJelB-22" value="">
@@ -400,7 +400,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YKZacaOpTAnNwpEEJelB-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="NTC3" vertex="1">
+        <mxCell id="YKZacaOpTAnNwpEEJelB-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="NTC2" vertex="1">
           <mxGeometry height="40" width="80" x="1241" y="400" as="geometry" />
         </mxCell>
         <mxCell id="YKZacaOpTAnNwpEEJelB-39" edge="1" parent="1" source="YKZacaOpTAnNwpEEJelB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" target="YKZacaOpTAnNwpEEJelB-23" value="">
@@ -411,7 +411,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YKZacaOpTAnNwpEEJelB-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="NTC4" vertex="1">
+        <mxCell id="YKZacaOpTAnNwpEEJelB-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="NTC3" vertex="1">
           <mxGeometry height="40" width="80" x="1241" y="480" as="geometry" />
         </mxCell>
         <mxCell id="YKZacaOpTAnNwpEEJelB-40" edge="1" parent="1" source="YKZacaOpTAnNwpEEJelB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" target="YKZacaOpTAnNwpEEJelB-24" value="">
@@ -422,7 +422,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YKZacaOpTAnNwpEEJelB-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="NTC5" vertex="1">
+        <mxCell id="YKZacaOpTAnNwpEEJelB-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="NTC4" vertex="1">
           <mxGeometry height="40" width="80" x="1360" y="480" as="geometry" />
         </mxCell>
         <mxCell id="YKZacaOpTAnNwpEEJelB-41" edge="1" parent="1" source="YKZacaOpTAnNwpEEJelB-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" target="YKZacaOpTAnNwpEEJelB-25" value="">
@@ -433,7 +433,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YKZacaOpTAnNwpEEJelB-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="NTC6" vertex="1">
+        <mxCell id="YKZacaOpTAnNwpEEJelB-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="NTC5" vertex="1">
           <mxGeometry height="40" width="80" x="1360" y="400" as="geometry" />
         </mxCell>
         <mxCell id="YKZacaOpTAnNwpEEJelB-42" edge="1" parent="1" source="YKZacaOpTAnNwpEEJelB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" target="YKZacaOpTAnNwpEEJelB-26" value="">
@@ -444,7 +444,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YKZacaOpTAnNwpEEJelB-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="NTC7" vertex="1">
+        <mxCell id="YKZacaOpTAnNwpEEJelB-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="NTC6" vertex="1">
           <mxGeometry height="40" width="80" x="1360" y="320" as="geometry" />
         </mxCell>
         <mxCell id="YKZacaOpTAnNwpEEJelB-43" edge="1" parent="1" source="YKZacaOpTAnNwpEEJelB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="YKZacaOpTAnNwpEEJelB-14">
@@ -467,7 +467,7 @@
             <mxPoint x="-2" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YKZacaOpTAnNwpEEJelB-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="NTC8" vertex="1">
+        <mxCell id="YKZacaOpTAnNwpEEJelB-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="NTC7" vertex="1">
           <mxGeometry height="40" width="80" x="1360" y="240" as="geometry" />
         </mxCell>
         <mxCell id="YKZacaOpTAnNwpEEJelB-35" edge="1" parent="1" source="YKZacaOpTAnNwpEEJelB-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YKZacaOpTAnNwpEEJelB-16" value="cnt_done">
@@ -530,13 +530,13 @@
           <mxGeometry height="60" width="330" x="1580" y="70" as="geometry" />
         </mxCell>
         <mxCell id="Pq-ty-VNfZ67zR-0_DZF-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="intr_low=(code&amp;lt;soft_set)?1&#39;b1 : 1&#39;b0 ;&lt;div&gt;intr_low=(code&amp;gt;soft_set+迟滞系数)?1&#39;b0 : 1&#39;b1 ;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="350" x="600" y="115" as="geometry" />
+          <mxGeometry height="130" width="350" x="640" y="80" as="geometry" />
         </mxCell>
         <mxCell id="Pq-ty-VNfZ67zR-0_DZF-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="进行模式切换，等待计数完成就开始触发" vertex="1">
           <mxGeometry height="60" width="120" x="1500" y="690" as="geometry" />
         </mxCell>
         <mxCell id="Pq-ty-VNfZ67zR-0_DZF-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="如果测量状态改变&lt;div&gt;！=1 or 3，回IDLE&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="150" x="850" y="490" as="geometry" />
+          <mxGeometry height="60" width="150" x="790" y="490" as="geometry" />
         </mxCell>
         <mxCell id="jTo_EQ53V-tZeU-2d9Dw-1" edge="1" parent="1" source="jTo_EQ53V-tZeU-2d9Dw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jTo_EQ53V-tZeU-2d9Dw-6" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -776,14 +776,14 @@
         <mxCell id="imFhmNfrqFwHLyiNSsrh-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="high_heart_alam_thm" vertex="1">
           <mxGeometry height="60" width="120" x="600" y="930" as="geometry" />
         </mxCell>
-        <mxCell id="imFhmNfrqFwHLyiNSsrh-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4个30bis温度阈值寄存器&lt;div&gt;共用一套寄存器？&lt;/div&gt;" vertex="1">
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4个30bis温度阈值寄存器" vertex="1">
           <mxGeometry height="60" width="160" x="600" y="600" as="geometry" />
         </mxCell>
         <mxCell id="imFhmNfrqFwHLyiNSsrh-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="8个20bis外部阈值寄存器" vertex="1">
           <mxGeometry height="60" width="160" x="600" y="680" as="geometry" />
         </mxCell>
         <mxCell id="imFhmNfrqFwHLyiNSsrh-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;resault_valid_plus &amp;amp; 区间符合→脉冲转电平&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;or&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;温度超限一直拉高？&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="300" x="190" y="520" as="geometry" />
+          <mxGeometry height="60" width="300" x="180" y="520" as="geometry" />
         </mxCell>
         <mxCell id="imFhmNfrqFwHLyiNSsrh-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" value="常规温度处于低温与高温预警中间" vertex="1">
           <mxGeometry height="40" width="260" x="200" y="670" as="geometry" />
