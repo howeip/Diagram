@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.1" pages="2">
   <diagram name="arch" id="17r9SrIfHmLDNzqiQorG">
-    <mxGraphModel dx="1188" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1066" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -200,7 +200,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VXiNsUSaB_4Viq5cEtpK" name="第 2 页">
-    <mxGraphModel dx="2809" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1066" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -536,7 +536,7 @@
           <mxGeometry height="60" width="120" x="1500" y="690" as="geometry" />
         </mxCell>
         <mxCell id="Pq-ty-VNfZ67zR-0_DZF-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="如果测量状态改变&lt;div&gt;！=1 or 3，回IDLE&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="150" x="720" y="570" as="geometry" />
+          <mxGeometry height="60" width="150" x="850" y="490" as="geometry" />
         </mxCell>
         <mxCell id="jTo_EQ53V-tZeU-2d9Dw-1" edge="1" parent="1" source="jTo_EQ53V-tZeU-2d9Dw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jTo_EQ53V-tZeU-2d9Dw-6" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -776,7 +776,7 @@
         <mxCell id="imFhmNfrqFwHLyiNSsrh-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="high_heart_alam_thm" vertex="1">
           <mxGeometry height="60" width="120" x="600" y="930" as="geometry" />
         </mxCell>
-        <mxCell id="imFhmNfrqFwHLyiNSsrh-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4个30bis温度阈值寄存器" vertex="1">
+        <mxCell id="imFhmNfrqFwHLyiNSsrh-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4个30bis温度阈值寄存器&lt;div&gt;共用一套寄存器？&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="600" y="600" as="geometry" />
         </mxCell>
         <mxCell id="imFhmNfrqFwHLyiNSsrh-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="8个20bis外部阈值寄存器" vertex="1">
