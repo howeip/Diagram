@@ -36,9 +36,7 @@
         <mxCell id="SQNQDR0_UQAJOyZwm5Ot-16" edge="1" parent="1" source="QSLFp3pxSNIV21t_vJu9-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="QSLFp3pxSNIV21t_vJu9-17" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="677" />
-              <mxPoint x="330" y="677" />
-              <mxPoint x="330" y="737" />
+              <mxPoint x="320" y="737" />
             </Array>
             <mxPoint x="362" y="650" as="sourcePoint" />
             <mxPoint x="457.7157287525381" y="702.3223304703365" as="targetPoint" />
