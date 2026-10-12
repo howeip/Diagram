@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="第 1 页" id="oZuPCcv2RJ5FTbR6Ynb5">
-    <mxGraphModel dx="1780" dy="1867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2191" dy="2167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -235,7 +235,7 @@
         <mxCell id="Ac-BrgS2fy5a8n_7ZKou-104" edge="1" parent="1" source="Ac-BrgS2fy5a8n_7ZKou-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="Ac-BrgS2fy5a8n_7ZKou-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ac-BrgS2fy5a8n_7ZKou-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=west;" value="adc_ctrl_fsm" vertex="1">
+        <mxCell id="Ac-BrgS2fy5a8n_7ZKou-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=west;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="adc_ctrl_fsm" vertex="1">
           <mxGeometry height="60" width="80" x="470" y="740" as="geometry" />
         </mxCell>
         <mxCell id="Ac-BrgS2fy5a8n_7ZKou-37" edge="1" parent="1" source="Ac-BrgS2fy5a8n_7ZKou-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="Ac-BrgS2fy5a8n_7ZKou-29" value="">
@@ -377,7 +377,7 @@
         <mxCell id="Ac-BrgS2fy5a8n_7ZKou-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="chain[3:0]&lt;div&gt;vlt_en0&lt;/div&gt;&lt;div&gt;&lt;div&gt;ack0&lt;/div&gt;&lt;div&gt;result[11:0]&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="52.5" width="80" x="470" y="812.5" as="geometry" />
         </mxCell>
-        <mxCell id="Ac-BrgS2fy5a8n_7ZKou-97" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=west;" value="LSADC" vertex="1">
+        <mxCell id="Ac-BrgS2fy5a8n_7ZKou-97" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=west;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="LSADC" vertex="1">
           <mxGeometry height="60" width="80" x="510" y="640" as="geometry" />
         </mxCell>
         <mxCell id="Ac-BrgS2fy5a8n_7ZKou-111" edge="1" parent="1" source="Ac-BrgS2fy5a8n_7ZKou-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="Ac-BrgS2fy5a8n_7ZKou-35">
@@ -388,7 +388,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ac-BrgS2fy5a8n_7ZKou-99" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=west;" value="THERMAL" vertex="1">
+        <mxCell id="Ac-BrgS2fy5a8n_7ZKou-99" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=west;fillColor=#fff2cc;strokeColor=#d6b656;" value="THERMAL" vertex="1">
           <mxGeometry height="60" width="80" x="410" y="640" as="geometry" />
         </mxCell>
         <mxCell id="Ac-BrgS2fy5a8n_7ZKou-100" edge="1" parent="1" source="Ac-BrgS2fy5a8n_7ZKou-36" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="Ac-BrgS2fy5a8n_7ZKou-97" value="">
